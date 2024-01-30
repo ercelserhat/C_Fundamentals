@@ -40,5 +40,21 @@ int main()
 	printf("220'nin %%25'i %f'dir.", yuzde);
 	printf("%f/%f isleminin sonucu = %f\n", g, f, g / f);
 	
+	
+	/* SCANF */
+	int t;
+	float v;
+	
+	printf("Bir gercel sayi girin: ");
+	scanf("%f", &v);
+	
+	printf("Bir tamsayi girin: ");
+	scanf("%d", &t);
+	
+	printf("\n");
+	
+	printf("\t %f * %f = %f\n", v, v, v*v);
+	printf("\t %d * %d = %d\n", t, t, t*t);
+	
 	return 0;
 }
