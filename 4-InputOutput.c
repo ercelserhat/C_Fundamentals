@@ -56,5 +56,16 @@ int main()
 	printf("\t %f * %f = %f\n", v, v, v*v);
 	printf("\t %d * %d = %d\n", t, t, t*t);
 	
+	
+	/* OUTPUT FORMATS */
+	float x = 7324.25, y = 244.531;
+	int i = 1299;
+	char *myStr = "Merhaba C";
+	
+	printf("%10d\n", i);
+	printf("%10s\n", myStr);
+	printf("%10.5f\n", x);
+	printf("%10.1f\n", y);
+	
 	return 0;
 }
