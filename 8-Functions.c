@@ -1,5 +1,10 @@
 #include <stdio.h>
 
+/* MACRO FUNCTIONS */
+#define kare(x) (x)*(x)
+#define yaz() puts("Devam etmek icin bir tusa basin...")
+#define buyuk(a, b) ((a > b) ? a:b)
+
 int topla(int, int); /* Toplama fonksiyonunun prototipi */
 
 /* Çıkarma fonksiyonunun tanımlanması */
@@ -52,6 +57,9 @@ int main()
 	kutu_ciz(10, 30);
 	
 	hata_mesaji();
+	
+	printf("%d",kare(2));
+	yaz();
 	
 	return 0;
 }
