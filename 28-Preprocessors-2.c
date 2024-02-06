@@ -9,6 +9,7 @@
 	#define ISLETIM_SISTEMI "WINDOW ISLETIM SISTEMI"
 #elif __linux__
 	#define ISLETIM_SISTEMI "LINUX ISLETIM SISTEMI"
+	#error "Bu program LINUX isletim sisteminde calismaz."
 #elif __APPLE__
 	#define ISLETIM_SISTEMI "MAC ISLETIM SISTEMI"
 #else
