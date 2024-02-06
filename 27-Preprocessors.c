@@ -22,6 +22,10 @@
 #define hipo(x, y) sqrt(x*x+y*y)
 #define takas(x,y) {g=(x); (x)=(y); (y)=g;}
 
+#define SIFRE 123456
+#undef SIFRE
+#define SIFRE 987654
+
 /*int main()
 {
 	for(int i=0; i<=10; i++)
